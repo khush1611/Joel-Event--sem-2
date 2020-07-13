@@ -1,5 +1,9 @@
 /* COLOR
-
+#054D81;
+#0B326E;
+#DF85B0;
+#2A5CA3;
+#3C99CD;
 */
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
@@ -9,14 +13,14 @@ body{
     line-height: 2em;
     scroll-behavior: smooth;
 
-    /* background-color: var(--color-primary);
-    background-attachment: fixed; */
+    background-color: #000000;
+    color: #ffffff;
 }
 
 :root{
     --color-primary:;
     --color-secondary:;
-    --color-accent:;
+    --color-accent:#054D81;;
 }
 /*~~~~~~~~~~~~~~*/
 /* SCROLLBAR  */

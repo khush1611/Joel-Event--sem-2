@@ -1,0 +1,50 @@
+    
+    <div class="header-wrapper">
+        <header class="header">
+            <h1 class="hidden">Assignment 1 setup</h1>
+            
+            <nav class="navigation row" id="navigation">
+                
+                <a href="/"><img src="#" alt="Logo" class="navigation__website_logo"></a>
+
+                <a href="/"><img src="#" alt="Logo" class="navigation__website_logo--mobile-view"></a>
+
+                <ul class="navigation__ul-listing row" id="navigation__ul-listing">
+                    <li><a href="#" class="text-capitalize">Home</a></li>
+                    <li><a href="#" class="text-capitalize">About</a></li>
+                </ul>
+               
+                 <section class="section-hamburger">
+                    <h2 class="hidden">section-hamburger</h2>
+                    <img src="/images/hamburger.png" alt="hamburger menu" class="hamburger-menu" id="hamburger-menu">
+                </section>
+ 
+            </nav>
+        </header>
+    </div> <!-- header-wrapper-->
+
+    <header class="header row">
+        <article class="left-section">
+            <img src="images/post-malone-2.png" alt="post malone photo" class="left-section--img">
+        </article> <!-- left section-->
+
+        <article class="right-section">
+            <nav class="navigation" id="navigation">
+                
+                <section class="section-hamburger">
+                    <h2 class="hidden">section-hamburger</h2>
+                    <img src="/images/hamburger-music.png" alt="hamburger menu" class="hamburger-menu" id="hamburger-menu">
+                </section>
+                 <!-- <section class="toronto-music-life">
+                    <p>toronto <br>music <br>life</p>
+                </section>    -->
+                <ul class="navigation__ul-listing row" id="navigation__ul-listing">
+                    <li><a href="#" class="text-capitalize">home</a></li>
+                    <li><a href="#" class="text-capitalize">tickets</a></li>
+                    <li><a href="#" class="text-capitalize">artists</a></li>
+                    <li><a href="#" class="text-capitalize">contact</a></li>
+                </ul>
+               
+            </nav>
+        </article> <!--right section-->
+    </header>

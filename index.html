@@ -21,36 +21,78 @@
 
 </head>
 <body>
-    
-    <div class="header-wrapper">
-        <header class="header">
-            <h1 class="hidden">Assignment 1 setup</h1>
-            
-            <nav class="navigation row" id="navigation">
-                
-                <a href="/"><img src="#" alt="Logo" class="navigation__website_logo"></a>
 
-                <a href="/"><img src="#" alt="Logo" class="navigation__website_logo--mobile-view"></a>
+    <header class="header">
+
+        <div class="header-content">
+
+            <nav class="navigation row" id="navigation">
+                <article class="toronto-music-life">
+                    <h1 class="website-name"><a href="index.html" class="index-page-link">Toronto Music Life</a></h1>
+                </article> <!--toronto music life-->
+                
+                <section class="section-hamburger">
+                    <h2 class="hidden">section-hamburger</h2>
+                    <img src="/images/hamburger-music.png" alt="hamburger menu" class="hamburger-menu" id="hamburger-menu">
+                </section> <!--section-hamburger-->
 
                 <ul class="navigation__ul-listing row" id="navigation__ul-listing">
-                    <li><a href="#" class="text-capitalize">Home</a></li>
-                    <li><a href="#" class="text-capitalize">About</a></li>
-                </ul>
-               
-                 <section class="section-hamburger">
-                    <h2 class="hidden">section-hamburger</h2>
-                    <img src="/images/hamburger.png" alt="hamburger menu" class="hamburger-menu" id="hamburger-menu">
-                </section>
- 
-            </nav>
-        </header>
-    </div> <!-- header-wrapper-->
+                    <li><a href="index.html" class="text-capitalize transition-all-ease-in-out">home</a></li>
+                    <li><a href="buy-ticket.html" class="text-capitalize transition-all-ease-in-out">tickets</a></li>
+                    <li><a href="artists.html" class="text-capitalize transition-all-ease-in-out">artists</a></li>
+                    <li><a href="#" class="text-capitalize transition-all-ease-in-out">contact</a></li>
+                </ul> <!--navigation__ul-listing-->
+            </nav> <!-- navigation-->
+        
+            <article class="buy-tickets">
+                <p class="line"></p>
+                <h2 class="text-capitalize">2021 - concerts</h2>
+                <p class="text-capitalize">get your tickets now</p>
+                <a class="button" href="buy-ticket.html">Buy Tickets</a>
+            </article><!-- buy tickets-->
+
+        </div><!--header-content-->
+    </header> <!--header-->
+
     <main class="main">
-         main section
-    </main>
+         <h2 class="hidden">main-section</h2>
+         <section class="article-artists">
+            <h2 class="heading">Artist-events</h2>
+            <div class="row">
+                <article class="artists">
+                    <img src="/images/post-malone-3.PNG" alt="" class="artists-img">
+                    <h3 class="text-center"><a href="artists.html" class="artists-name">Post Malone</a></h3>
+                </article><!-- artists-->
+                <article class="artists">
+                    <img src="/images/drake.jpg" alt="" class="artists-img">
+                    <h3 class="text-center"><a href="#" class="artists-name">Post Malone</a></h3>
+                </article><!-- artists-->
+                <article class="artists">
+                    <img src="/images/justin-bieber.jpg" alt="" class="artists-img">
+                    <h3 class="text-center"><a href="#" class="artists-name">Post Malone</a></h3>
+                </article><!-- artists-->
+            </div> <!-- row-->
+         </section> <!--article artists-->
+    </main> <!--main-->
 
     <footer class="footer">
-        Footer
+        <section class="footer-section">
+            <div class="social-media">
+                <ul class="social-media__list row">
+                    <li>
+                        <a href="#" target="_blank" aria-label="A link to facebook profile">
+                        <i class="fab fa-facebook-square social-media__icon" title="Click to view facebook profile"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/my_fitsquad/?hl=en" target="_blank" aria-label="A link to instagram profile">
+                        <i class="fab fa-instagram social-media__icon" title="Click to view instagram profile"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </footer>
     <script src="/js/script.js"></script>
 </body>

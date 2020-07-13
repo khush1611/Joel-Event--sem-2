@@ -1,29 +1,81 @@
 /*`````````````````````````````*/
 /*header*/
 /*`````````````````````````````*/
-.header-wrapper{ 
-    
-} 
-.header{ padding: 2em;}
+.index-page-link{ color: #ffffff;}
+.header{ height: 100vh; background-image: radial-gradient(circle, rgba(0,0,0,0.5525560566023284) 0%, rgba(0,0,0,0.38728995015975143) 100%), url(/images/concert.jpg); background-repeat: no-repeat; background-size: cover; overflow: hidden;}
 
-.navigation{}
+.header-content{
+    padding: 4em;
+}
+.website-name{ font-size: 3em; }
+
+/*navigation*/
+.navigation{ display: flex; flex-wrap: wrap; align-items: center;}
 
 .navigation-onClick{ flex-wrap: nowrap !important; align-items: flex-start !important;}
 
-.navigation__website_logo{ max-width: 10em;}
+.navigation__ul-listing{ display: none;}
 
-.navigation__website_logo--mobile-view{ max-width: 3em; display: none;}
-
-.navigation__ul-listing{ margin-left: auto;}
-
-.navigation__ul-listing li{ margin: 0 2em; }
+.navigation__ul-listing li{ margin: 0 2em; margin-bottom: 1em;}
 
 .navigation-ul-onclick{ display: inline !important; margin-left: 0 !important; }
 
-.navigation__ul-listing a{ color: #686666; font-size: 1.2em;}
+.navigation__ul-listing a{ color: #ffffff; font-size: 3em; }
 
-.navigation__ul-listing a:hover{ color: #000000; font-size: 1.2em;}
+.navigation__ul-listing a:hover{ color: #dadada; font-size: 3.5em;}
 
-.section-hamburger{ margin-left: auto;}
+.section-hamburger{ }
 
-.hamburger-menu{ max-width: 3em; display: none;}
+.hamburger-menu{ max-width: 6em; }
+
+/*buy tickets*/
+.buy-tickets{ margin: 0 auto; max-width: 25em; margin-top: 10em;}
+
+.line{ height: .2em; width: 5em; background-color: #ffffff;}
+
+.buy-tickets h2{ font-size: 3em;}
+
+.buy-tickets p{ font-size: 2em; margin: 1em 0;}
+
+/*`````````````````````````````*/
+/*MAIN*/
+/*`````````````````````````````*/
+.main{ max-width: 90em; margin: 0 auto;}
+
+/*artists*/
+.article-artists{ margin: 6em;}
+.artists{ margin-bottom: 1em;}
+.artists-img{ width: 20em; height: 20em; border-radius: 0.6em; border: .5em solid #054D81; margin-bottom: 1em;}
+.artists-name{ color: #ffffff; font-size: 1.5em; }
+
+/*`````````````````````````````*/
+/*FOOTER*/
+/*`````````````````````````````*/
+/* .footer{   background-color: var(--color-primary); } */
+.footer-section{ 
+    border-top: 0.1em solid #818181;
+    padding: 4em;
+    margin: 4em 4em 0 4em;
+}
+
+.social-media{ width: 5em; margin: 0 auto; margin-top: 2em;}
+.social-media__icon{ font-size: 2em; color: #818181;}
+
+
+
+/*`````````````````````````````*/
+/*header-artists*/
+/*`````````````````````````````*/
+.header-artists{ height: 100vh; background-image: radial-gradient(circle, rgba(0,0,0,0.5525560566023284) 0%, rgba(0,0,0,0.38728995015975143) 100%), url(/images/post-malone.jpg); background-repeat: no-repeat; background-size: cover; overflow: hidden;}
+
+.artists-content{
+    
+}
+/*`````````````````````````````*/
+/*buy tickets form*/
+/*`````````````````````````````*/
+.section-form{ 
+    width: 80%; 
+    margin: 0 auto;
+    padding: 2em;
+}
