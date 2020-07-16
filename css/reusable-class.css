@@ -17,11 +17,16 @@
 .text-center{ text-align: center;}
 .text-uppercase{ text-transform: uppercase;}
 .text-capitalize{ text-transform: capitalize; }
+.text-muted{ color: #686666; font-weight: normal;}
 .font-size-sm{ font-size: 1.1em;}
 .content{ max-width: 50em; margin: 0 auto; padding: 1em;}
 a{ text-decoration: none;}
+
 .a-link{ color: #686666; }
 .a-link:hover{ color: #000000; }
+
+.blend-color-dodge{ mix-blend-mode: color-dodge;}
+.size{ font-size: 3em;}
 
 .margin-0{ margin:0; }
 .margin-1em{ margin:  1em; }
@@ -34,12 +39,29 @@ a{ text-decoration: none;}
 
 .border-radius-xthin{ border-radius: .2em; }
 
-.heading { font-size: 3em; text-transform: capitalize; margin-bottom: 1em; color:var(--color-secondary);}
-.title { text-transform: capitalize; color:var(--color-accent); }
+.heading { font-size: 3em; text-transform: capitalize; margin-bottom: 1em; color:var(--color-accent);}
+.title { text-transform: capitalize; color:var(--color-accent);  font-size: 1.5em;}
 
-.button{
+/* https://css-tricks.com/gradient-borders-in-css/ */
+.border-gradient {
     cursor: pointer;
-    color:var(--color-secondary); 
+    color:var(--color-primary); 
+
+    border: 10px solid;
+    border-radius: 0.3em;
+    border-image-slice: 1;
+    border-width: 2px;
+    padding: .5em 3em;
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.border-gradient-purple {
+    border-image-source: linear-gradient(to left, #0B326E, #3C99CD);
+}
+ .button{
+    cursor: pointer;
+    color:#ffffff; 
     background-color: var(--color-accent); 
     
     border:0;
@@ -47,7 +69,7 @@ a{ text-decoration: none;}
     padding: .5em 3em;
     font-size: 2em;
     margin-bottom: 2em;
-}
+} 
 .btn-explore{ color:var(--color-accent); transition: all 0.3s ease-in-out 0s;}
 .btn-explore:hover{ color:var(--color-secondary); }
 
@@ -64,4 +86,11 @@ transition: all 0.7s ease-in-out 0s;
 
 .color-secondary{ color: var(--color-secondary);}
 
-.input_field{ width: 100%; padding: 1.5em 2em; border-radius: 0.3em; margin-bottom: 2em ; background-color: transparent;}
+.input_field{ width: 100%; 
+    padding: 1.5em 2em; 
+    border:0;
+    border-bottom: 0.1em solid var(--color-accent); 
+    border-radius: 0.4em;
+    margin-bottom: 2em ; 
+    background-color: transparent;
+}

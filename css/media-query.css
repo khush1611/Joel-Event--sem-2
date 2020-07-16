@@ -4,6 +4,18 @@
     .navigation__ul-listing{ display: none !important;}
     .foot_nav{ display: none !important;}
 }
+
+
+@media only screen and (max-width: 900px){
+    
+
+    .section-artists, 
+    .lastest-album, 
+    .upcoming-concert { 
+        padding: 1em !important; }
+   
+
+}
 @media only screen and (max-width: 800px){
     .header{ height: 100vh; background-image: radial-gradient(circle, rgba(0,0,0,0.5525560566023284) 0%, rgba(0,0,0,0.38728995015975143) 100%), url(/images/concert.jpg); background-repeat: no-repeat; background-size: cover; overflow: hidden;}
 
@@ -38,14 +50,18 @@
         margin-bottom: 2em;
     }
     .heading{ font-size: 2em !important;}
+
+    .article-artists .row { 
+        display: block !important ;
     }
+}
 
 @media only screen and (max-width: 500px){
     .promotional_img{  height: 20em !important;}
     .section-form{ width: 100% !important;  padding: 1em !important; }
     .navigation__website_logo{ display: none !important;}
     .navigation__website_logo--mobile-view{ display: block !important; }
-    }
+}
 
 @media only screen and (max-width: 450px){
     .header{ padding: 1em !important;}

@@ -14,12 +14,13 @@ body{
     scroll-behavior: smooth;
 
     background-color: #000000;
+    line-height: 3em;
     color: #ffffff;
 }
 
 :root{
-    --color-primary:;
-    --color-secondary:;
+    --color-primary:#3C99CD;;
+    --color-secondary: #DF85B0;;
     --color-accent:#054D81;;
 }
 /*~~~~~~~~~~~~~~*/
