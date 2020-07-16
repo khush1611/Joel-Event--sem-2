@@ -28,16 +28,16 @@
 
 .hamburger-menu{ max-width: 6em; }
 
-/*buy tickets*/
-.buy-tickets{ margin: 0 auto; max-width: 60em; margin-top: 10em;}
+/*header-center-text*/
+.header-center-text{ margin: 0 auto; max-width: 60em; margin-top: 10em;}
 
 .line{ height: .2em; width: 5em; background-color: var(--color-primary);;}
 
-.buy-tickets h2{ font-size: 4em; color:  var(--color-secondary);}
+.header-center-text h2{ font-size: 4em; color:  var(--color-secondary);}
 
 .get-ticket{ color: var(--color-primary);}
 
-.buy-tickets p{ font-size: 2em; margin: 1.5em 0;}
+.header-center-text p{ font-size: 2em; margin: 1.5em 0;}
 
 /*`````````````````````````````*/
 /*MAIN*/

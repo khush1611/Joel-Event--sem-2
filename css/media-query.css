@@ -7,40 +7,27 @@
 
 
 @media only screen and (max-width: 900px){
-    
-
     .section-artists, 
     .lastest-album, 
     .upcoming-concert { 
-        padding: 1em !important; }
-   
-
-}
-@media only screen and (max-width: 800px){
-    .header{ height: 100vh; background-image: radial-gradient(circle, rgba(0,0,0,0.5525560566023284) 0%, rgba(0,0,0,0.38728995015975143) 100%), url(/images/concert.jpg); background-repeat: no-repeat; background-size: cover; overflow: hidden;}
-
-    .header-content{
         padding: 1em !important;
     }
+}
+@media only screen and (max-width: 800px){
+    .header-content{ padding: 1em !important; }
     .website-name{ font-size: 2em !important; }
 
     /*navigation*/
     .navigation-onClick{ flex-wrap: nowrap !important; align-items: flex-start !important;}
-
     .navigation-ul-onclick{ display: inline !important; margin-left: 0 !important; }
-
     .navigation__ul-listing a{ font-size: 2em !important; }
-
     .navigation__ul-listing a:hover{ font-size: 2em !important;}
-
     .hamburger-menu{ max-width: 3em !important; }
 
-    /*buy tickets*/
-    .buy-tickets{ }
-
-    .buy-tickets h2{ font-size: 1.5em !important;}
-
-    .buy-tickets p{ font-size: 1.5em; margin: 0.3em 0 !important;}
+    /*header-center-text*/
+    .header-center-text{ }
+    .header-center-text h2{ font-size: 1.5em !important;}
+    .header-center-text p{ font-size: 1.5em; margin: 0.3em 0 !important;}
 
     .button{
         border:0;
