@@ -1,4 +1,13 @@
 /* media queries to make the website responsive*/
+@media only screen and (max-width: 2000px){
+    .hamburger-menu{ display: block !important; }
+    .navigation__ul-listing{ display: none !important;}
+    .foot_nav{ display: none !important;}
+    .albums{
+        width: 17em !important;
+    }
+}
+
 @media only screen and (max-width: 1100px){
     .hamburger-menu{ display: block !important; }
     .navigation__ul-listing{ display: none !important;}
@@ -25,7 +34,6 @@
     .hamburger-menu{ max-width: 3em !important; }
 
     /*header-center-text*/
-    .header-center-text{ }
     .header-center-text h2{ font-size: 1.5em !important;}
     .header-center-text p{ font-size: 1.5em; margin: 0.3em 0 !important;}
 
@@ -40,6 +48,26 @@
 
     .article-artists .row { 
         display: block !important ;
+    }
+
+    .light-heading--word-space {
+        font-size: 5em !important;
+    }
+    
+    .artists {
+        width: 20em !important;
+    }
+
+    .artists-section{
+        padding: 0 2em !important;
+    }
+    .light-heading--word-space {
+        font-size: 4em !important;
+        color:#fff !important;
+    }
+
+    .albums-row{
+        padding: 0 2em !important;
     }
 }
 
@@ -61,11 +89,197 @@
     .hamburger-menu{ width: 2em !important;}
     .section-form{ width: 99% !important;  padding: 1em !important; }
 }
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 430px){
     .navigation__website_logo{ display: none !important;}
     .navigation__website_logo--mobile-view{ display: block !important; }
     .section-form{ width: 100% !important; padding: 1em !important; }
     .coming-soon{ font-size: 1em !important;}
     .footer{ padding: 1em !important;}
     .footer-section { margin: 1em !important; padding: 1em !important;}
+
+
+    .website-name {
+        font-size: 2em !important;
+    }
+    .header-center-text {
+        margin-top: 5em !important;
+    }
+    .header-center-text p {
+        font-size: 1.5em !important;
+    }
+    .blend-color-dodge {
+        mix-blend-mode: normal !important;
+    }
+    .border-gradient-purple {
+        border-image-source: none !important;
+    }    
+    .border-gradient {
+        font-size: 1.1em !important;
+        margin-left: 4em;
+    }
+    .light-heading--word-space {
+        font-size: 4em !important;
+        color: rgb(11 50 110) !important;
+    }
+    .artists-section{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .artists-img {
+        width: 100% !important;
+        height: 18em !important;
+    }
+    .albums-content {
+        padding: 0 !important;
+    }
+    .albums {
+        width: 20em !important;
+        margin: 0 auto 1em auto !important;
+    }
+    .albums-img {
+        height: 15em !important;
+    }
+    .text-center{
+        font-size: 0.7em !important;
+    }
+    .text-muted{
+        font-size: 0.8em !important;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .navigation__website_logo{ display: none !important;}
+    .navigation__website_logo--mobile-view{ display: block !important; }
+    .section-form{ width: 100% !important; padding: 1em !important; }
+    .coming-soon{ font-size: 1em !important;}
+    .footer{ padding: 1em !important;}
+    .footer-section { margin: 1em !important; padding: 1em !important;}
+
+
+    .website-name {
+        font-size: 2em !important;
+    }
+    .header {
+        height: 80vh !important;
+    }
+
+    .header-center-text {
+        margin-top: 5em !important;
+    }
+    .header-center-text p {
+        font-size: 1.5em !important;
+    }
+    .blend-color-dodge {
+        mix-blend-mode: normal !important;
+    }
+    .border-gradient-purple {
+        border-image-source: none !important;
+    }    
+    .border-gradient {
+        font-size: 1.1em !important;
+        margin-left: 4em;
+    }
+    .light-heading--word-space {
+        font-size: 4em !important;
+        color: rgb(11 50 110) !important;
+    }
+    .artists-section{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .artists-img {
+        width: 100% !important;
+        height: 18em !important;
+    }
+    .albums-content {
+        padding: 0 !important;
+    }
+    .albums {
+        width: 20em !important;
+        margin: 0 auto 1em auto !important;
+    }
+    .albums-img {
+        height: 15em !important;
+    }
+    .text-center{
+        font-size: 0.7em !important;
+    }
+    .text-muted{
+        font-size: 0.8em !important;
+    }
+}
+
+
+/* @media only screen and (max-width: 350px){
+    .navigation__website_logo{ display: none !important;}
+    .navigation__website_logo--mobile-view{ display: block !important; }
+    .section-form{ width: 100% !important; padding: 1em !important; }
+    .coming-soon{ font-size: 1em !important;}
+    .footer{ padding: 1em !important;}
+    .footer-section { margin: 1em !important; padding: 1em !important;}
+} */
+
+@media only screen and (max-width: 330px){
+    .navigation__website_logo{ display: none !important;}
+    .navigation__website_logo--mobile-view{ display: block !important; }
+    .section-form{ width: 100% !important; padding: 1em !important; }
+    .coming-soon{ font-size: 1em !important;}
+    .footer{ padding: 1em !important;}
+    .footer-section { margin: 1em !important; padding: 1em !important;}
+
+    .header-content { padding: 1em !important;}
+    .header {
+        height: 80vh !important;
+    }
+    .website-name {
+        font-size: 1.3em !important;
+    }
+    .size {
+        font-size: 2em !important;
+    }
+    .header-center-text {
+        margin-top: 2em !important;
+    }
+    .header-center-text p {
+        font-size: 1.5em !important;
+    }
+    .blend-color-dodge {
+        mix-blend-mode: normal !important;
+    }
+    .border-gradient-purple {
+        border-image-source: none !important;
+    }    
+    .border-gradient {
+        font-size: 1em !important;
+        margin-left: 2em;
+    }
+    .light-heading--word-space {
+        font-size: 2em !important;
+        color: rgb(11 50 110) !important;
+    }
+    .artists-section{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .artists-img {
+        width: 15em !important;
+        height: 15em !important;
+        /* margin-left: 1.5em; */
+    }
+    .albums-content {
+        padding: 0 !important;
+    }
+    .albums {
+        width: 15em !important;
+        margin: 0 auto 1em auto !important;
+    }
+    .albums-img {
+        height: 15em !important;
+    }
+    .text-center{
+        font-size: 0.7em !important;
+    }
+    .text-muted{
+        font-size: 0.8em !important;
+    }
 }

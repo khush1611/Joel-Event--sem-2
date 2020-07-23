@@ -24,8 +24,6 @@
 
 .navigation__ul-listing a:hover{ color: #dadada; font-size: 3.5em;}
 
-.section-hamburger{ }
-
 .hamburger-menu{ max-width: 6em; }
 
 /*header-center-text*/
@@ -42,7 +40,6 @@
 /*`````````````````````````````*/
 /*MAIN*/
 /*`````````````````````````````*/
-.main{ }
 
 /*artists*/
 
@@ -106,7 +103,6 @@
         text-align: justify;
         align-self: center;
 }
-.article-image-conatiner{ }
 
 .upcoming-concert{
     background-repeat: no-repeat; 
@@ -126,4 +122,6 @@
     padding: 7em;
 }
 label{ color: var(--color-primary); }
-
+.form-login__input{
+    color: white;
+}
